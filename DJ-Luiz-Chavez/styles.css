@@ -17,7 +17,7 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(images/music-red-backgorund.jpeg);
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     border-radius: 20px;
 }
@@ -346,7 +346,7 @@ nav i {
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/music-red-backgorund.jpeg);
     }
     .header-text {
         margin-top: 100%;
