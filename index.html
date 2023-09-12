@@ -149,11 +149,11 @@
 					</div>
 				</div>
 				<div class="contact-right">
-					<form ref="form" id="form">
+					<form ref="form" onsubmit="sendEmail()" id="form">
 						<input type="text" placeholder="Your Name" id="name" required>
 						<input type="email"placeholder="Your Email" id="email" required>
 						<textarea rows="6" placeholder="Your Message" id="message" ></textarea>
-						<button onclick="sendEmail()" type="submit" class="btn btn-2 js-submit-btn">Submit</button>
+						<button type="submit" class="btn btn-2 js-submit-btn">Submit</button>
 					</form>
 					<span id="msg">Successfully Sent Message!</span>
 				</div>

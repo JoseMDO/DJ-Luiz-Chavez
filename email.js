@@ -1,7 +1,6 @@
 
 function sendEmail() {
-    document.getElementById('form').submit();
-    
+
     (function() {
         emailjs.init("top1LR8VHBn9B118Z");
     })();
