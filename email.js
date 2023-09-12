@@ -24,5 +24,4 @@ function sendEmail() {
         }, 5000);
     })
     .catch();
-    
 }
