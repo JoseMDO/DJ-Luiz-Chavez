@@ -194,7 +194,7 @@ nav ul li a:hover::after {
     transform: translateY(-10px);
 }
 
-/* ---------------------portfolio------------------- */
+/* ---------------------mixes------------------- */
 
 #portfolio {
     padding: 50px 0;
@@ -251,6 +251,9 @@ nav ul li a:hover::after {
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+.audio {
+    margin-top: 30px;
 }
 .work:hover img{
     transform: scale(1.1);
@@ -328,6 +331,7 @@ form .btn-2 {
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
+    margin-left: 12px;
     cursor: pointer;
 }
 .copyright {
@@ -410,5 +414,5 @@ nav i {
 #msg {
     color: #61b752;
     margin-top: -40px;
-    display: block;
+    display: none;
 }

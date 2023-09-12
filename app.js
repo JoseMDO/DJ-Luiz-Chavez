@@ -1,4 +1,5 @@
 
+
 const tabLinks = document.getElementsByClassName("tab-links");
 const tabContents = document.getElementsByClassName("tab-contents");
 const sideMenu = document.getElementById('side-menu');
@@ -14,7 +15,6 @@ function openTab(tabName) {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabName).classList.add('active-tab');
 }
-
 
 function openMenu() {
     sideMenu.style.right = '0';
