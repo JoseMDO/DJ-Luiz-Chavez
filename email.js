@@ -17,7 +17,7 @@ function sendEmail() {
 
     emailjs.send(serviceID, templateID, params)
     .then(res => {
-        alert("The form was submitted!")
+        alert("The form was submitted!");
         document.getElementById('form').reset();
         msg.style.display = "block";
         setTimeout(() => {
