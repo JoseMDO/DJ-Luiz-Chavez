@@ -151,18 +151,18 @@
 					</div>
 				</div>
 				<div class="contact-right">
-					<form ref="form" onsubmit="sendEmail()" id="form">
-						<input type="text" placeholder="Your Name" id="name" required>
-						<input type="email"placeholder="Your Email" id="email" required>
-						<textarea rows="6" placeholder="Your Message" id="message" ></textarea>
-						<button type="submit" class="btn btn-2 js-submit-btn">Submit</button>
+					<form ref="form" onsubmit="sendEmail(event)" id="form">
+						<input type="text" placeholder="Your Name" id="name" name="name" required autocomplete="name">
+						<input type="email"placeholder="Your Email" id="email" name="email" required autocomplete="email">
+						<textarea rows="6" placeholder="Your Message" id="message" name ="message" ></textarea>
+						<button type="submit" class="btn btn-2 js-submit-btn" value="submit">Submit</button>
 					</form>
 					<span id="msg">Successfully Sent Message!</span>
 				</div>
 			</div>
 		</div>
 		<div class="copyright">
-			<p>TEST 3 Copyright <i class="fa-regular fa-copyright"></i> Made by Jose Montes De Oca Morfin With Help From GreatStack </p>
+			<p>Final Web Test Copyright <i class="fa-regular fa-copyright"></i> Made by Jose Montes De Oca Morfin With Help From GreatStack</p>
 		</div>
 	</section>
 

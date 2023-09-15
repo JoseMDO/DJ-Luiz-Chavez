@@ -1,6 +1,6 @@
 
-function sendEmail() {
-
+function sendEmail(event) {
+    event.preventDefault();
     (function() {
         emailjs.init("top1LR8VHBn9B118Z");
     })();
@@ -17,7 +17,6 @@ function sendEmail() {
 
     emailjs.send(serviceID, templateID, params)
     .then(res => {
-        alert("The form was submitted!");
         document.getElementById('form').reset();
         msg.style.display = "block";
         setTimeout(() => {
