@@ -12,7 +12,7 @@ function sendEmail(event) {
     };
     const msg = document.getElementById("msg");
 
-    const serviceID = "service_ki5b6ij";
+    const serviceID = "service_spc8yzh";
     const templateID = "template_43e8utb";
 
     emailjs.send(serviceID, templateID, params)
