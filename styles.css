@@ -212,7 +212,6 @@ nav ul li a:hover::after {
     overflow: hidden;
 }
 .work img {
-    width: 100%;
     max-height: 400px;
     border-radius: 10px;
     display: block;
