@@ -17,9 +17,10 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(images/music-red-backgorund.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     border-radius: 20px;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -353,7 +354,9 @@ nav i {
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/music-red-backgorund.jpeg);
+        background-image: url(images/phone-backgroubnd.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .header-text {
         margin-top: 80%;
